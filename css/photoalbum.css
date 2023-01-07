@@ -16,3 +16,7 @@
     max-width: 100vw;
     margin: 3rem 0 3rem 0;
 }
+
+img:hover {
+    cursor: pointer;
+}
