@@ -56,3 +56,32 @@ header {
 }
 
 
+@media only screen and (max-width: 875px){
+    .menu {
+        display: none;
+    }
+    .mobile-dropdown {
+        display: none;
+        background-color: #47474785;
+        position: fixed;
+        top: 75px;
+        left: 50px;
+        right: 50px;
+        text-align: center;
+    }
+    .mobile-dropdown ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0;
+    }
+    .mobile-dropdown li {
+        padding-bottom: 15px;
+    }
+
+    .icons {
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+}

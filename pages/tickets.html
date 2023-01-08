@@ -4,17 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon/favicon-32x32.png">
     <link rel="stylesheet" href="/css/main.css" />
     <link rel="stylesheet" href="/css/normalize.css" />
     <link rel="stylesheet" href="/css/header.css" />
     <link rel="stylesheet" href="/css/basics.css" />
     <link rel="stylesheet" href="/css/events.css">
+    <link rel="stylesheet" href="/css/hamburger.css">
+    <link rel="stylesheet" href="/css/tickets.css">
     <title>Demontage events - tickets</title>
   </head>
   <body>
     <header>
       <div class="logo">
-        <a href="index.html"
+        <a href="/index.html"
           ><img
             src="/images/demontage_website_logo_liggend.png"
             loading="lazy"
@@ -33,7 +36,7 @@
                 <a href="/pages/photoalbum.html">demontage 12 dec.</a>
               </div>
             </li>
-            <a href="#"
+            <a href="https://www.instagram.com/demontage_events/"
               ><li>
                 <img
                   class="icon"
@@ -63,6 +66,36 @@
           </ul>
         </div>
       </div>
+      <div class="mobile-menu">
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle">
+            <svg class="hamburger hamRotate ham4" viewBox="0 0 100 100" width="80" onclick="this.classList.toggle('active')">
+                <path
+                    class="line top"
+                    d="m 70,33 h -40 c 0,0 -8.5,-0.149796 -8.5,8.5 0,8.649796 8.5,8.5 8.5,8.5 h 20 v -20" />
+                <path
+                    class="line middle"
+                    d="m 70,50 h -40" />
+                <path
+                    class="line bottom"
+                    d="m 30,67 h 40 c 0,0 8.5,0.149796 8.5,-8.5 0,-8.649796 -8.5,-8.5 -8.5,-8.5 h -20 v 20" />
+                    </svg>   
+        </label>
+        <div class="mobile-dropdown">
+            <ul>
+                <li><a href="/pages/events.html">events</a></li>
+                <li><a href="/pages/tickets.html">tickets</a></li>
+                <li><a href="">madwolf</a></li>
+                <li><a href="/pages/photoalbum.html">photobook</a></li>
+                <div class="icons">
+                    <li><a href="https://www.instagram.com/demontage_events/"></a><img class="icon" src="/images/icons/instagram.png" alt="instagram" loading="lazy"></li>
+                    <li><a href=""></a><img class="icon" src="/images/icons/resident.png" alt="resident advisor" loading="lazy"></li>
+                    <li><a href=""></a><img class="icon" src="/images/icons/facebook.png" alt="facebook" loading="lazy"></li>
+                </div>
+
+            </ul>
+        </div>
+    </div>
     </header>
     <main>
       <div class="eventix">

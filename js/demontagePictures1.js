@@ -113,6 +113,7 @@ demontageOnePics.forEach((picture) => {
     imgTag.addEventListener("click", toggleModal);
     
     //click the image and show in modal
+    
     imgTag.addEventListener("click", (e) => {
         if(imgTag.src === e.target.src) {
             const modalImg = document.querySelector(".modal-img");

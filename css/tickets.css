@@ -1,0 +1,8 @@
+.mobile-dropdown {
+  background-color: rgba(71, 71, 71, 0.95);
+}
+@media only screen and (max-width: 875px) {
+  #shop-frame {
+    margin-top: 100px !important;
+  }
+}

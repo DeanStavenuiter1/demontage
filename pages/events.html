@@ -4,14 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/x-icon" href="/images/favicon/favicon-32x32.png">
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/images/favicon/favicon-32x32.png"
+    />
     <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/normalize.css" />
     <link rel="stylesheet" href="/css/header.css" />
-    <link rel="stylesheet" href="/css/photoalbum.css" />
-    <link rel="stylesheet" href="/css/modal.css" />
     <link rel="stylesheet" href="/css/basics.css" />
+    <link rel="stylesheet" href="/css/events.css" />
     <link rel="stylesheet" href="/css/hamburger.css">
-    <title>Demontage events - pictures</title>
+    <title>Demontage events - events</title>
   </head>
   <body>
     <header>
@@ -27,7 +31,7 @@
         <div class="menu">
           <ul>
             <a href="/pages/events.html"><li>events</li></a>
-            <a href="#"><li>tickets</li></a>
+            <a href="/pages/tickets.html"><li>tickets</li></a>
             <a href="#"><li>madwolf</li></a>
             <li class="photobook">
               <a href="#">photobook</a>
@@ -94,12 +98,52 @@
 
             </ul>
         </div>
+    </div>
     </header>
     <main>
-      <div class="photo-album"></div>
-      <div class="modal-background" onclick="toggleModal()"></div>
-      <div class="modal"><img class="modal-img" alt="modal-picture" /></div>
+      <div class="events">
+        <div class="upcoming-events">
+          <h1>upcoming events</h1>
+          <div class="poster">
+            <img
+              src="/images/events/Demontage2_website_event.png"
+              loading="lazy"
+              alt="demontage 2 poster"
+            />
+
+            <div class="event-info">
+            <div class="date-and-place">
+              <h4>January 20, 2023</h4>
+              <h4>Toekomstmuziek</h4>
+            </div>
+
+            <h2>Demontage 2</h2>
+            <p>Sloop & Kogel, Lenz, DJ Aletta b2b Kogel, Joann, Noom1</p>
+          </div>
+          </div>
+        </div>
+        <div class="past-events">
+          <h1>past events</h1>
+          <div class="poster">
+            <img
+              src="/images/events/Demontage_website_event.png"
+              loading="lazy"
+              alt="demontage 1 poster"
+            />
+            <div class="event-info">
+                     <div class="date-and-place">
+              <h4>November 4, 2022</h4>
+              <h4>Toekomstmuziek</h4>
+            </div>
+
+            <h2>Demontage 1</h2>
+            <p>Max looyen, DJ Aletta, Joann, Neutron, Sloop & Kogel</p>
+            </div>
+       
+          </div>
+        </div>
+      </div>
     </main>
-    <script src="/js/demontagePictures1.js"></script>
+    <script src="/js/main.js"></script>
   </body>
 </html>

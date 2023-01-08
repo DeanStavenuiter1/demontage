@@ -1,7 +1,11 @@
+.mobile-menu{
+  display: none;
+}
+
 #menu-toggle{
   display: none;
 }
-#menu-toggle:checked ~ .mobile-nav{
+#menu-toggle:checked ~ .mobile-dropdown{
   display: block;
 }
 .ham {
@@ -22,7 +26,7 @@
 .line {
   fill:none;
   transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
-  stroke:#000;
+  stroke: #fff;;
   stroke-width:1.5;
   stroke-linecap:round;
 }
@@ -48,4 +52,12 @@
     margin-right: 0%;
     
   }
+}
+
+@media only screen and (max-width: 875px){
+  
+  .mobile-menu {
+    display: block;
+  }
+
 }
