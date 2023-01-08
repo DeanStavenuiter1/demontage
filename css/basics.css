@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "heavitasregular";
+    src: url(/heavitasregular/heavitas-webfont.woff),
+      url(/heavitasregular/heavitas-webfont.woff2);
+  }
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --text: #fff;
+    --bg: #000;
+    --font: "heavitasregular";
+}
+
+body, html {
+    height: 100%;
+}
+
+body {
+    background-color: var(--bg);
+    font-family: var(--font);
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
