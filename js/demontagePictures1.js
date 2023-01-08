@@ -105,7 +105,7 @@ demontageOnePics.forEach((picture) => {
     const imgTag = document.createElement("img");
     imgTag.innerHTML =
     photoAlbum.appendChild(imgTag);
-    
+
     imgTag.src = `${picture}`;
     imgTag.className = "single-img";
     imgTag.alt = "demontage picture";
@@ -119,7 +119,6 @@ demontageOnePics.forEach((picture) => {
             modalImg.src = e.target.src
         }
     })
-
 });
 
 
