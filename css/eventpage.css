@@ -1,0 +1,24 @@
+.event {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.poster {
+  width: 100%;
+  height: auto;
+}
+
+.poster img {
+  max-width: 600px;
+  height: auto;
+}
+
+.event-info {
+  background-color: rgb(28, 28, 28);
+  padding: 15px;
+}
+
+.date-and-place {
+    display: flex;
+    justify-content: space-between;
+  }
